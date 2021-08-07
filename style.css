@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    background-color: rgb(100, 100,100);
+    /* display: flex; */
+}
+.container{
+
+    background-color: rgb(100, 100,100);
+    height: 100%;
+    width: 100%;
+}
+.heading{
+
+   
+    line-height: 1.6;
+    height: 5.5rem;
+    background-color: rgba(212, 56, 17,0.5);
+}
+h1{
+    color: whitesmoke;
+    padding: 20px;
+    
+}
+.btn{
+
+    color: lavender;
+    background-color:lightslategray;
+    float: right;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.mycolor{
+
+    color:midnightblue;
+}
+.btn-primary{
+
+    width: 100%;
+}
+.note{
+
+    height: 200px;
+    width: 350px;
+    background-color: whitesmoke;
+    padding: 30px;
+    margin: 30px;
+    box-shadow: 10px 10px 2px 4px rgba(0,0,0,0.3);
+    flex-wrap: wrap;
+    flex: auto;
+    float: left;
+    /* float: left; */
+}
+.editbtn{
+
+    float: right;
+    font-size: 25px;
+    
+    border-radius: 50%;
+    padding: 7px;
+    cursor: pointer;
+    color: white;
+    background-color:green;
+    margin: 5px;
+    margin-right: 1px;
+    border: transparent;
+}
+.editbtn:hover{
+
+    background-color: white;
+    color: green;
+    /* font-size: 35px; */
+    
+}
+.deletebtn
+{
+    float: right;
+    font-size: 25px;
+    
+    border-radius: 50%;
+    padding: 7px;
+    cursor: pointer;
+    color: white;
+    background-color:red;
+    margin: 5px;
+    border: transparent;
+}
+.deletebtn:hover{
+
+    background-color: whitesmoke;
+    color: red;
+    /* font-size: 35px; */
+}
+textarea{
+
+    font-size: 20px;
+    /* padding: 10px; */
+    /* margin: 20px; */
+    position: relative;
+    border: 0;
+    height: 150px;
+    width: 100%;
+    
+    
+    /* height: auto; */
+}
+.hidden{
+
+    display: none;
+}
+.op{
+
+    width: 100%;
+}
+.maindiv{
+    /* font-size: 20px;
+    padding: 10px;
+    padding-top: 20px;
+    /* margin: 20px; 
+    position: relative;
+    border: 0;
+    height: 150px;
+    width: auto; */
+    padding: 20px;
+    font-size: 20px;
+    content: fixed;
+}
+footer{
+
+    text-align: center;
+    color:black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+@media (max-width:700px){
+
+    .note{
+
+        height: 150px;
+        width: 290px;
+        flex-wrap: wrap;
+        flex: auto;
+        padding: 20px;
+        margin: 10px;
+        /* float: left; */
+    }
+    h1{
+
+        padding: 10px;
+        font-size: 25px;
+    }
+    .btn{
+
+        color: lavender;
+        background-color:lightslategray;
+        float: right;
+       
+        padding: 15px;
+        font-size: 15px;
+        cursor: pointer;
+        border-radius: 10px;
+
+    }
+    .editbtn{
+
+        float: right;
+        font-size: 20px;
+        
+        border-radius: 50%;
+        padding: 5px;
+        cursor: pointer;
+        color: white;
+        background-color:green;
+        margin: 5px;
+        margin-right: 1px;
+        border: transparent;
+    }
+    .deletebtn
+    {
+        float: right;
+        font-size: 20px;
+        
+        border-radius: 50%;
+        padding: 5px;
+        cursor: pointer;
+        color: white;
+        background-color:red;
+        margin: 5px;
+        border: transparent;
+    }
+    textarea{
+
+        height: 105px;
+    }
+}
